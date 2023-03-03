@@ -27,3 +27,7 @@ button:hover {
     box-shadow: 0 0 4px 0 rgb(104, 104, 104);
 
 }
+
+.resetButton {
+    width: auto;
+}

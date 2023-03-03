@@ -16,6 +16,10 @@ function Counter() {
         // pour mettre à jour la variable d'état `count`
         setCount(count - 1);
     };
+        // Ajout d'une fonction flêchée qui reinitialise le Count a zero grace au bouton 'Reset'
+    const resetCount = () => {
+        setCount(0)
+    };
 
     return (
         <div className='counterStyle'>
@@ -25,6 +29,9 @@ function Counter() {
             <button onClick={incrementCount}>+</button>
             {/* Ajouter un bouton pour décrémenter le compteur et lui assigner la fonction `decrementCount` en tant que gestionnaire d'événement onClick */}
             <button onClick={decrementCount}>-</button>
+            {/* Ajouter un bouton pour reinitialisé le compteur a zero en suis assignant la fonction 'resetCount' */}
+            <button className='resetButton' onClick={resetCount}>Reset</button>
+
         </div>
     );
 }
