@@ -31,3 +31,12 @@ button:hover {
 .resetButton {
     width: auto;
 }
+
+input {
+    width: 100px;
+    margin: 10px auto;
+    background-color: rgb(255, 127, 81);
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 3px 0 black;
+}
