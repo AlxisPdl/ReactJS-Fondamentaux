@@ -4,7 +4,8 @@ import Card from './components/card';
 function App() {
   const cardsContent = [
     { title: "Chat pas très beau", image: "chatmoche.jpeg", description: "Ce chat n'est pas très joli" },
-    { title: "Chat pas très beau", image: "chatmoche.jpeg", description: "Ce chat n'est pas très joli" },
+    { title: "Chat moyen", image: "chatnormal.jpeg", description: "Ce chat est cool mais je préfère Cute Kitty" },
+    { title: "Chat rigolo", image: "chatrigolo.jpg", description: "Ce chat est rigolo" },
     { },
   ]
   return (

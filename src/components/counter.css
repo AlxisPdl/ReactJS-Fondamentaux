@@ -1,0 +1,29 @@
+.counterStyle {
+    border: 2px solid orangered;
+    border-radius: 10px;
+    background-color: rgb(206, 206, 206);
+    box-shadow: 0 0 6px 0 black;
+    width: 150px;
+    margin: 25px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+button {
+    cursor: pointer;
+    background-color: rgb(255, 127, 81);
+    width: 25px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 3px 0 black;
+}
+
+button:hover {
+    background-color: rgb(255, 186, 161);
+    box-shadow: 0 0 4px 0 rgb(104, 104, 104);
+
+}
